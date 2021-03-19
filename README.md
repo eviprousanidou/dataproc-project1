@@ -12,9 +12,9 @@ Your mission is to run **project_1** with Spark to determine the nonce for varyi
 ## Reporting your findings
 You'll be submitting a report along with your code that provides commentary on the tasks below.  
 
-1. **(4 points)** Run the program on your local machine to solve cases `k = 2,3,4,5,6`. For each `k`, provide `xS`, its hash value, the total time elapsed, and the number of trials.  
-## Use this_is_a_bitcoin_block_of_68058055
-# For k = 2
+1. **(4 points)** Run the program on your local machine to solve cases `k = 2,3,4,5,6`. For each `k`, provide `xS`, its hash value, the total time elapsed, and the number of trials.   
+Use this_is_a_bitcoin_block_of_68058055
+***For k = 2***
 (40969771456792this_is_a_bitcoin_block_of_68058055,007b9f67c4d919904bd01d2e224d99a5ddb06dcfbbf0178f7ae1ffd61acba492)
 Time elapsed:2s
 Number of trials: 100
