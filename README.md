@@ -41,6 +41,24 @@ You'll be submitting a report along with your code that provides commentary on t
     Number of trials: 10000000
 
 
-3. **(3 points)** Run the program on GCP to solve the case `k = 7`. Provide `xS`, its hash value, the total time elapsed, and the number of trials. Describe your cluster's configuration (number of machines, number/type of cores, etc.) and your process for estimating the number of trials needed in order to find the nonce.  
-4. **(3 points)** Modify **one** line of code in **src/main/scala/project_1/main.scala** so that the program generates the potential nonce from 1 to `n` (the number of trials) instead of randomly. Discuss whether or not this is more efficient than the randomized approach.
+3. **(3 points)** Run the program on GCP to solve the case `k = 7`. Provide `xS`, its hash value, the total time elapsed, and the number of trials. Describe your cluster's configuration (number of machines, number/type of cores, etc.) and your process for estimating the number of trials needed in order to find the nonce
+   
+    (1194565486this_is_a_bitcoin_block_of_68058055,000000078a99564794d99593c04c4df268c3bf7773a6f021d51374d2edcad026)
+    Time elapsed:705s
+    Number of trials: 500000000
+
+
+5. **(3 points)** Modify **one** line of code in **src/main/scala/project_1/main.scala** so that the program generates the potential nonce from 1 to `n` (the number of trials) instead of randomly. Discuss whether or not this is more efficient than the randomized approach.
+
+   line 58 should change:
+   
+      iter.map(x => rand.nextInt(Int.MaxValue - 1) + 1)
+    
+    be replaced by:
+    
+      iter.map(x => rand.nextInt(trials) + 1)
+
+
+    
+
 
