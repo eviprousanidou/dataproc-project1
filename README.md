@@ -13,7 +13,6 @@ Your mission is to run **project_1** with Spark to determine the nonce for varyi
 You'll be submitting a report along with your code that provides commentary on the tasks below.  
 
 1. **(4 points)** Run the program on your local machine to solve cases `k = 2,3,4,5,6`. For each `k`, provide `xS`, its hash value, the total time elapsed, and the number of trials.   
-Use this_is_a_bitcoin_block_of_68058055
 
     **For k = 2**
     (40969771456792this_is_a_bitcoin_block_of_68058055,007b9f67c4d919904bd01d2e224d99a5ddb06dcfbbf0178f7ae1ffd61acba492)
@@ -21,12 +20,24 @@ Use this_is_a_bitcoin_block_of_68058055
     Number of trials: 100
     
     **For k = 3**
+    (63623582573264817476861this_is_a_bitcoin_block_of_68058055,0002cf7562ef5f8506c8dfcc00a9e6f7a59d066ccf972ce56f7c1106494ef93c)
+    Time elapsed:2s
+    Number of trials: 1000
     
     **For k = 4**
+    (120067070773264861this_is_a_bitcoin_block_of_68058055,000048282066635455b5e85aad0e601b9fed018b253954ec26e4e64951723c5b)
+    Time elapsed:2s
+    Number of trials: 50000
     
     **For k = 5**
+    (491838373264861this_is_a_bitcoin_block_of_68058055,000009849c7c09a1c2e5f14fa6dedf825a4d3481180f3e13696f0aee65cd5c2c)
+    Time elapsed:4s
+    Number of trials: 500000
     
     **For k = 6**
+    (195592367932648458761this_is_a_bitcoin_block_of_68058055,000000b9963a2b88d5431ca93344a85be67cbc7639e557267acdfac21d91a7d0)
+    Time elapsed:5s
+    Number of trials: 1000000
 
 
 3. **(3 points)** Run the program on GCP to solve the case `k = 7`. Provide `xS`, its hash value, the total time elapsed, and the number of trials. Describe your cluster's configuration (number of machines, number/type of cores, etc.) and your process for estimating the number of trials needed in order to find the nonce.  
