@@ -13,6 +13,13 @@ Your mission is to run **project_1** with Spark to determine the nonce for varyi
 You'll be submitting a report along with your code that provides commentary on the tasks below.  
 
 1. **(4 points)** Run the program on your local machine to solve cases `k = 2,3,4,5,6`. For each `k`, provide `xS`, its hash value, the total time elapsed, and the number of trials.  
-2. **(3 points)** Run the program on GCP to solve the case `k = 7`. Provide `xS`, its hash value, the total time elapsed, and the number of trials. Describe your cluster's configuration (number of machines, number/type of cores, etc.) and your process for estimating the number of trials needed in order to find the nonce.  
-3. **(3 points)** Modify **one** line of code in **src/main/scala/project_1/main.scala** so that the program generates the potential nonce from 1 to `n` (the number of trials) instead of randomly. Discuss whether or not this is more efficient than the randomized approach.
+## Use this_is_a_bitcoin_block_of_68058055
+# For k = 2
+(40969771456792this_is_a_bitcoin_block_of_68058055,007b9f67c4d919904bd01d2e224d99a5ddb06dcfbbf0178f7ae1ffd61acba492)
+Time elapsed:2s
+Number of trials: 100
+
+
+3. **(3 points)** Run the program on GCP to solve the case `k = 7`. Provide `xS`, its hash value, the total time elapsed, and the number of trials. Describe your cluster's configuration (number of machines, number/type of cores, etc.) and your process for estimating the number of trials needed in order to find the nonce.  
+4. **(3 points)** Modify **one** line of code in **src/main/scala/project_1/main.scala** so that the program generates the potential nonce from 1 to `n` (the number of trials) instead of randomly. Discuss whether or not this is more efficient than the randomized approach.
 
