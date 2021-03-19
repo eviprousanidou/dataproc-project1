@@ -43,6 +43,10 @@ You'll be submitting a report along with your code that provides commentary on t
 
 3. **(3 points)** Run the program on GCP to solve the case `k = 7`. Provide `xS`, its hash value, the total time elapsed, and the number of trials. Describe your cluster's configuration (number of machines, number/type of cores, etc.) and your process for estimating the number of trials needed in order to find the nonce
    
+    Cluster Configuration:
+      1 master
+      2 workers
+      
     (1194565486this_is_a_bitcoin_block_of_68058055,000000078a99564794d99593c04c4df268c3bf7773a6f021d51374d2edcad026)
     Time elapsed:705s
     Number of trials: 500000000
