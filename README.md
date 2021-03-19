@@ -65,10 +65,3 @@ You'll be submitting a report along with your code that provides commentary on t
       
     By changing the program to generate the potential nonce from 1 to n instead of randomly, this would not be significantly affect the efficiency but it would make     it a little more efficient.
       
-      
-    
-
-
-    
-
-
